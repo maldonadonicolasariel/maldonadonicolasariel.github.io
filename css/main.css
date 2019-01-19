@@ -1,0 +1,137 @@
+body {
+	background-color: black;
+	color:white;
+	font-family: "Helvetica Neue", Helvetica;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px lightgrey; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fc880c;
+}
+
+
+::-webkit-scrollbar-button {
+	background-color: white;
+	height: 0.5em;	
+}
+#header {
+	width:100%;
+}
+
+.button {
+	float:left;
+	margin-right: 0.1em;
+	margin-left:0.2em;
+	border:2px solid #fc880c;
+	border-radius: 20px;
+	padding: 0.15em 0.25em;
+
+}
+
+.button:hover {
+	border:2px solid white;
+	background-color: #fc880c;
+	color:black;
+}
+
+.button-link {
+	color:white;
+	text-decoration: none;
+	user-select: none;
+}
+
+.button-link:hover {
+	color:white;
+	text-decoration: none;
+}
+
+.active {
+	border:2px solid white;
+	background-color: #fc880c;
+	color:black;
+}
+
+#idioma {
+	position: absolute;
+	top:0px;
+	right:0px;
+}
+
+h3	{
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid white;
+	line-height: 0.1em;
+	margin:1em 0;
+	color:white;
+}
+
+h3 span {
+	background:black;
+	padding:0 10px;
+	color: transparent;
+    text-shadow: rgba(252, 146, 62,0.9) 0px 2px 3px;
+    font-size: 42px;
+}
+
+h1 {
+	text-align: center;
+	color:trasparent;
+	text-shadow: 0px 0px 12px rgba(255,255,255,0.7);
+}
+
+hr {
+	background-color:white;
+	width: 95%;
+}
+
+.content {
+	width:60%;
+	margin-top: 3em;
+	margin-left: 2em;
+}
+
+#gameCanvas {
+	border:1px solid white;
+	margin:5px 30px 20px 30px;
+}
+
+a {
+	color:#fc880c;
+	text-decoration:none;
+	user-select: none;
+}
+
+#btn-row {
+	position: relative;
+	margin:10px 0px -4px 30px;
+	width:480px;
+	user-select: none;
+
+
+}
+
+.butn {
+	height: 30px;
+	width: 60px;
+	text-align:center;
+	border-radius: 15px;
+	user-select: none;
+}
+
+#pauseButton {
+	
+}
+
+#resetButton {
+	position:absolute;
+	right: 0px;
+}
