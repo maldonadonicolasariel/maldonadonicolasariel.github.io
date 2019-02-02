@@ -1,6 +1,6 @@
 body {
-	background-color: black;
-	color:white;
+	background-color: white;
+	color:black;
 	font-family: "Helvetica Neue", Helvetica;
 }
 
@@ -10,16 +10,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 10px lightgrey; 
+  box-shadow: inset 0 0 10px darkgrey; 
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #fc880c;
+  background: #368cbf;
 }
 
 
 ::-webkit-scrollbar-button {
-	background-color: white;
+	background-color: black;
 	height: 0.5em;	
 }
 #header {
@@ -30,32 +30,32 @@ body {
 	float:left;
 	margin-right: 0.1em;
 	margin-left:0.2em;
-	border:2px solid #fc880c;
-	border-radius: 2px 15px 2px 15px; 
+	border:2px solid #368cbf;
+	border-radius: 20px;
 	padding: 0.15em 0.25em;
 
 }
 
 .button:hover {
-	border:2px solid white;
-	background-color: #fc880c;
+	border:2px solid black;
+	background-color: #8bbdda;
 }
 
 .button-link {
-	color:white;
+	color:black;
 	text-decoration: none;
 	user-select: none;
 }
 
 .button-link:hover {
-	color:white;
+	color:black;
 	text-decoration: none;
 }
 
 .active {
-	border:2px solid white;
-	background-color: #d97102;
-	color:black;
+	border:2px solid black;
+	background-color: #4293c2;
+	color:white;
 }
 
 #idioma {
@@ -67,28 +67,28 @@ body {
 h3	{
 	width: 100%;
 	text-align: center;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid black;
 	line-height: 0.1em;
 	margin:1em 0;
-	color:white;
+	color:black;
 }
 
 h3 span {
-	background:black;
+	background:white;
 	padding:0 10px;
 	color: transparent;
-    text-shadow: rgba(252, 136, 12,0.95) 0px 2px 3px;
+    text-shadow: rgba(46, 120, 163, 0.95) 0px 2px 3px;
     font-size: 42px;
 }
 
 h1 {
 	text-align: center;
 	color:trasparent;
-	text-shadow: 0px 0px 12px rgba(255,255,255,0.7);
+	text-shadow: 0px 0px 12px rgba(46, 120, 163,0.7);
 }
 
 hr {
-	background-color:white;
+	background-color:black;
 	width: 95%;
 }
 
@@ -99,12 +99,12 @@ hr {
 }
 
 #gameCanvas {
-	border:1px solid white;
+	border:1px solid black;
 	margin:5px 30px 20px 30px;
 }
 
 a {
-	color:#fc880c;
+	color:#368cbf;
 	text-decoration:none;
 	user-select: none;
 }
@@ -112,7 +112,7 @@ a {
 a:hover {
 	user-select: none;
 	text-decoration: none;
-	color:#d971dd;
+	color::#001075;
 }
 
 #btn-row {
@@ -145,9 +145,9 @@ a:hover {
 	border:0 solid black;
 	border-radius: 0px 0px 20px 0px;
 	cursor:pointer;
-	background-color: #fc880c;
+	background-color: #368cbf;
 	color:white;
-	padding:2px 7px;
+	padding:2px 7px;	
 	font-size: 16px;
 }
 
@@ -169,7 +169,7 @@ a:hover {
 	color:black;
 	padding:2px 14px;
 	text-decoration: none;
-	transition: all 0.5s ease-in-out 0s;
+
 }
 
 .dropdown-content a:hover {
@@ -181,11 +181,8 @@ a:hover {
 }
 
 .dropdown:hover .dropbtn {
-	background-color:#d97102;	
+	background-color:#4293c2;
 }
-
-
-/* ºººººººººººººººººººººººººº */
 
 svg {
 }
@@ -200,7 +197,7 @@ svg {
 }
 
 .arrows path {
-	stroke: darkorange;
+	stroke: black;
 	fill: transparent;
 	stroke-width: 2px;	
 	animation: arrow 3s infinite;

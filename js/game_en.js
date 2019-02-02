@@ -60,7 +60,7 @@ function collisionDetection() {
     				b.status = 0;
     				score++;
     				if(score >= brickRowCount*brickColumnCount) {
-    					alert("Ganaste, Felicitaciones!");
+    					alert("You Win, Congratulations!");
     					reset();
     				}
     			}
@@ -72,13 +72,13 @@ function collisionDetection() {
 function drawScore() {
 	ctx.font = "16px Arial";
 	ctx.fillStyle = "#d971dd";
-	ctx.fillText("Puntos: "+score, 8, 20);
+	ctx.fillText("Score: "+score, 8, 20);
 }
 
 function drawLives(){
 	ctx.font = "16px Arial";
 	ctx.fillStyle = "#d971dd";
-	ctx.fillText("Vidas: "+lives, canvas.width-65,20);
+	ctx.fillText("Lifes: "+lives, canvas.width-65,20);
 }
 
 function reset() {
@@ -117,8 +117,8 @@ function drawPause() {
 
 	ctx.font = "25px Arial";
 	ctx.fillStyle= "#d971dd";
-	ctx.fillText("Juego en Pausa", canvas.width/3, canvas.height/2);
-	ctx.fillText("Use las flechas para mover", canvas.width/5, (canvas.height/2)+35);
+	ctx.fillText("Game is Paused", canvas.width/3, canvas.height/2);
+	ctx.fillText("Use ArrowKeys to move", canvas.width/4, (canvas.height/2)+35);
 
 }
 
@@ -183,7 +183,7 @@ function draw() {
 				else{
 					lives--;
 					if(lives <= 0) {
-						alert("Fin del Juego");
+						alert("Game Over");
 						reset();
 					}
 					else{
