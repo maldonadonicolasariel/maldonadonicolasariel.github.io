@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juego De Colores</title>
+    <link rel="stylesheet" type="text/css" href="colorGame.css">
+</head>
+<body>
+
+<h1>El juego <br>de Colores<br><span id="pickedColor">RGB(0, 0, 0)</span><br></h1>
+
+<div id="stripe">
+    <button id="reset">Reset</button>
+    <span id="split"></span>
+    <button class="mode">Facil</button>
+    <button class="mode selected">Dificil</button>
+    <button class="mode">Extremo</button>
+</div>
+
+<div>
+    <span id="message"></span>
+</div>
+
+<div id="container">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <p class="content">RGB (sigla en inglés de red, green, blue, en español «rojo, verde y azul») es la composición 
+            del color en términos de la intensidad de los colores primarios de la luz.</p>
+
+        <p class="content">De manera usual, la intensidad de cada una de las componentes se 
+            mide según una escala que va del 0 al 255 y cada color es definido por un conjunto 
+            de valores escritos entre paréntesis (correspondientes a valores "R", "G" y "B") y 
+            separados por comas.</p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Synthese%2B.svg/1024px-Synthese%2B.svg.png" alt="rgbGraphic">
+    </div>
+</div>
+
+<div id="footer">
+    <button id="rgb">¿QUE ES RGB?</button>
+    <span id="author">Nicolas Maldonado 2019</span>
+</div>
+
+<script type="text/javascript" src="colorGame.js"></script>
+</body>
+</html>
